@@ -1,4 +1,29 @@
 .cards {
+  max-width: 90vw;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 1rem 3rem 5rem;
+
+  .card {
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    margin: 0 1rem;
+    flex: 1 1 18rem;
+
+    text-align: center;
+
+    &.aurora {
+      background-color: cyan;
+    }
+
+    &.amber {
+      background-color: yellow;
+
+    }
+
+    &.fuchsia {
+      background-color: magenta;
+    }
+  }
 }
