@@ -71,16 +71,16 @@ a {
 
   &:hover {
     text-decoration: underline;
-    color: $watermelon-light;
+    color: light($watermelon);
   }
   &:active {
     text-decoration: underline;
-    color: $watermelon-dark;
+    color: dark($watermelon);
   }
 
   &:visited {
     text-decoration: none;
-    color: $watermelon-dark;
+    color: dark($watermelon);
   }
 }
 

@@ -1,9 +1,29 @@
 @use "sass:color";
 
-$sunflower: #fd2;
+// brand color
+
 $watermelon: #f45;
-$watermelon-dark: color.scale($watermelon, $lightness: -30%);
-$watermelon-light: color.scale($watermelon, $lightness: +30%);
+
+// theme base colors
+
+$aurora: hsl(194, 100%, 63%);
+$amber: hsl(61, 100%, 57%);
+$twilight: hsl(330, 100%, 63%);
+
+// funcs
+
+@function hue-shift($color) {
+  @return color.adjust($color, $hue: -60deg);
+  @return $color;
+}
+
+@function dark($color) {
+  @return color.scale($color, $lightness: -30%);
+}
+
+@function light($color) {
+  @return color.scale($color, $lightness: +30%);
+}
 
 $body-text: color.scale($watermelon, $lightness: -90%);
 $body-text-bg: rgba(255, 255, 255, 0.9);

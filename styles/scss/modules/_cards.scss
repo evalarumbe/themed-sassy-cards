@@ -1,3 +1,5 @@
+@use '../variables/color' as *;
+
 .cards {
   max-width: 90vw;
   margin: 0 auto;
@@ -14,16 +16,18 @@
     text-align: center;
 
     &.aurora {
-      background-color: cyan;
+      background: $aurora no-repeat fixed;
+      background: linear-gradient(to bottom right, $aurora, hue-shift($aurora)) no-repeat fixed;
     }
 
     &.amber {
-      background-color: yellow;
-
+      background: $amber no-repeat fixed;
+      background: linear-gradient(to bottom right, $amber, hue-shift($amber)) no-repeat fixed;
     }
 
-    &.fuchsia {
-      background-color: magenta;
+    &.twilight {
+      background: $twilight no-repeat fixed;
+      background: linear-gradient(to bottom right, $twilight, hue-shift($twilight)) no-repeat fixed;
     }
   }
 }

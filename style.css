@@ -104,13 +104,16 @@ a:visited {
   text-align: center;
 }
 .cards .card.aurora {
-  background-color: cyan;
+  background: #42d3ff no-repeat fixed;
+  background: linear-gradient(to bottom right, #42d3ff, #42ff6e) no-repeat fixed;
 }
 .cards .card.amber {
-  background-color: yellow;
+  background: #fbff24 no-repeat fixed;
+  background: linear-gradient(to bottom right, #fbff24, #ff2724) no-repeat fixed;
 }
-.cards .card.fuchsia {
-  background-color: magenta;
+.cards .card.twilight {
+  background: #ff42a1 no-repeat fixed;
+  background: linear-gradient(to bottom right, #ff42a1, #a142ff) no-repeat fixed;
 }
 
 /*# sourceMappingURL=style.css.map */
