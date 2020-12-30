@@ -117,7 +117,7 @@ a:visited {
   background: #42d3ff no-repeat fixed;
   background: linear-gradient(to bottom right, #42d3ff, #42ff6e) no-repeat fixed;
 }
-.cards .card.aurora p {
+.cards .card.aurora h3, .cards .card.aurora p {
   color: #001920;
 }
 .cards .card.amber {
@@ -125,7 +125,7 @@ a:visited {
   background: #fbff24 no-repeat fixed;
   background: linear-gradient(to bottom right, #fbff24, #ff2724) no-repeat fixed;
 }
-.cards .card.amber p {
+.cards .card.amber h3, .cards .card.amber p {
   color: #1d1d00;
 }
 .cards .card.twilight {
@@ -133,7 +133,7 @@ a:visited {
   background: #ff42a1 no-repeat fixed;
   background: linear-gradient(to bottom right, #ff42a1, #a142ff) no-repeat fixed;
 }
-.cards .card.twilight p {
+.cards .card.twilight h3, .cards .card.twilight p {
   color: #200010;
 }
 .cards .card a {

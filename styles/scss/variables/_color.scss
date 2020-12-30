@@ -1,16 +1,15 @@
 @use "sass:color";
 
-// brand color
-
+// brand colors
 $watermelon: #f45;
+$body-text-bg: rgba(255, 255, 255, 0.9);
 
 // theme base colors
-
 $aurora: hsl(194, 100%, 63%);
 $amber: hsl(61, 100%, 57%);
 $twilight: hsl(330, 100%, 63%);
 
-// funcs
+// define funcs
 
 @function hue-shift($color) {
   @return color.adjust($color, $hue: -60deg);
@@ -32,5 +31,16 @@ $twilight: hsl(330, 100%, 63%);
   @return color.scale($color, $lightness: -90%);
 }
 
+// use funcs
+
 $body-text: darkest($watermelon);
-$body-text-bg: rgba(255, 255, 255, 0.9);
+
+@mixin theme($color) {
+  box-shadow: 0px 0px 1rem 0 glow($color);
+  background: $color no-repeat fixed;
+  background: linear-gradient(to bottom right, $color, hue-shift($color)) no-repeat fixed;
+
+  h3, p {
+    color: darkest($color);
+  }
+}
