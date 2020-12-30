@@ -14,16 +14,19 @@ $twilight: hsl(330, 100%, 63%);
 
 @function hue-shift($color) {
   @return color.adjust($color, $hue: -60deg);
-  @return $color;
-}
-
-@function dark($color) {
-  @return color.scale($color, $lightness: -30%);
 }
 
 @function light($color) {
   @return color.scale($color, $lightness: +30%);
 }
 
-$body-text: color.scale($watermelon, $lightness: -90%);
+@function dark($color) {
+  @return color.scale($color, $lightness: -30%);
+}
+
+@function darkest($color) {
+  @return color.scale($color, $lightness: -90%);
+}
+
+$body-text: darkest($watermelon);
 $body-text-bg: rgba(255, 255, 255, 0.9);
