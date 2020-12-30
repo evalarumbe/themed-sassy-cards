@@ -38,14 +38,15 @@ body {
 h1, h2 {
   text-align: center;
   color: white;
-  padding: 1.5rem 2rem 1rem;
 }
 
 h1 {
+  padding: 2rem 2rem 0;
   font-size: 2rem;
 }
 
 h2 {
+  padding: 1.5rem 2rem 1rem;
   font-size: 1.5rem;
   font-weight: normal;
 }
@@ -112,6 +113,7 @@ a:visited {
   text-align: center;
 }
 .cards .card.aurora {
+  box-shadow: 0px 0px 1rem 0 rgba(123, 224, 255, 0.7);
   background: #42d3ff no-repeat fixed;
   background: linear-gradient(to bottom right, #42d3ff, #42ff6e) no-repeat fixed;
 }
@@ -119,6 +121,7 @@ a:visited {
   color: #001920;
 }
 .cards .card.amber {
+  box-shadow: 0px 0px 1rem 0 rgba(252, 255, 101, 0.7);
   background: #fbff24 no-repeat fixed;
   background: linear-gradient(to bottom right, #fbff24, #ff2724) no-repeat fixed;
 }
@@ -126,6 +129,7 @@ a:visited {
   color: #1d1d00;
 }
 .cards .card.twilight {
+  box-shadow: 0px 0px 1rem 0 rgba(255, 123, 189, 0.7);
   background: #ff42a1 no-repeat fixed;
   background: linear-gradient(to bottom right, #ff42a1, #a142ff) no-repeat fixed;
 }

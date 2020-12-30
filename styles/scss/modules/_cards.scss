@@ -20,6 +20,7 @@
     text-align: center;
 
     &.aurora {
+      box-shadow: 0px 0px 1rem 0 glow($aurora);
       background: $aurora no-repeat fixed;
       background: linear-gradient(to bottom right, $aurora, hue-shift($aurora)) no-repeat fixed;
 
@@ -29,6 +30,7 @@
     }
 
     &.amber {
+      box-shadow: 0px 0px 1rem 0 glow($amber);
       background: $amber no-repeat fixed;
       background: linear-gradient(to bottom right, $amber, hue-shift($amber)) no-repeat fixed;
 
@@ -38,6 +40,7 @@
     }
 
     &.twilight {
+      box-shadow: 0px 0px 1rem 0 glow($twilight);
       background: $twilight no-repeat fixed;
       background: linear-gradient(to bottom right, $twilight, hue-shift($twilight)) no-repeat fixed;
 

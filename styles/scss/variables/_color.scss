@@ -20,6 +20,10 @@ $twilight: hsl(330, 100%, 63%);
   @return color.scale($color, $lightness: +30%);
 }
 
+@function glow($color) {
+  @return color.adjust(light($color), $alpha: -0.3);
+}
+
 @function dark($color) {
   @return color.scale($color, $lightness: -30%);
 }
