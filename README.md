@@ -1,4 +1,4 @@
-# Sassy theme
+# Themed Sassy Cards
 
 Use Sass to generate a variations on a base color and apply them as a theme.
 
@@ -10,4 +10,4 @@ Sass features:
 
 The project home page explains it better, see for yourself:
 
-[Sassy Themes on GitHub Pages](https://www.evalarumbe.com/themed-sassy-cards/)
+[Themed Sassy Cards on evalarumbe.com](https://www.evalarumbe.com/themed-sassy-cards/)
