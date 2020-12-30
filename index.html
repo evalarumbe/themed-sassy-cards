@@ -3,46 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vanilla JS tabs</title>
+  <title>Themed sassy cards</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-<h1>Themed cards</h1>
 
-<section class="intro">
-  <h2>The idea</h2>
-  <ol>
-    <li>Create palettes from base colors using the <a href="https://sass-lang.com/documentation/modules/color">Sass color module</a>.</li>
-    <li>Apply the palette as a theme by applying a single class to a container.</li>
-  </ol>
-</section>
+<header>
+  <h1>Themed sassy cards</h1>
+</header>
 
-<h2>Life lessons from XKCD</h2>
-<section class="cards">
-  <article class="card aurora">
-    <h3>Just quickly&hellip;</h3>
-    <p>Those sneaky unknown unknowns.</p>
-    <p class="center"><a href="https://xkcd.com/349/">Success</a></p>
-  </article>
+<main>
+  <section class="intro">
+    <h2>The idea</h2>
+    <ol>
+      <li>Each card starts with a class that sets a base color.</li>
+      <li>All variations on the base color are derived using the <a href="https://sass-lang.com/documentation/modules/color">Sass color module</a>.<br><small>(it's subtle, but check out the glow, the text color and the background gradient)</small></li>
+      <li>The content is just for fun ;)</li>
+    </ol>
+  </section>
   
-  <article class="card amber">
-    <h3>Choices</h3>
-    <p>Take the road less traveled by raptors.</p>
-    <p class="center"><a href="https://xkcd.com/292/">GOTO</a></p>
-  </article>
-  
-  <article class="card twilight">
-    <h3>Journeys</h3>
-    <p>Can you imagine if we all stopped pretending we knew everything?</p>
-    <p class="center"><a href="https://xkcd.com/1053/">Ten Thousand</a></p>
-  </article>
-</section>
+  <h2>Life lessons from XKCD</h2>
+  <section class="cards">
+    <article class="card aurora">
+      <h3>Just quickly&hellip;</h3>
+      <p>Those sneaky unknown unknowns.</p>
+      <p class="center"><a href="https://xkcd.com/349/">Success</a></p>
+    </article>
+    
+    <article class="card amber">
+      <h3>Choices</h3>
+      <p>Take the road less traveled by raptors.</p>
+      <p class="center"><a href="https://xkcd.com/292/">GOTO</a></p>
+    </article>
+    
+    <article class="card twilight">
+      <h3>Journeys</h3>
+      <p>Can you imagine if we all stopped pretending we knew&nbsp;everything?</p>
+      <p class="center"><a href="https://xkcd.com/1053/">Ten Thousand</a></p>
+    </article>
+  </section>
+</main>
 
-<section class="contact">
+<footer class="contact">
   <h2>Contact</h2>
   <p><a href="https://www.evalarumbe.com">evalarumbe.com</a></p>
-</section>
+</footer>
 
 <script src="./tabs.js"></script>
 </body>
