@@ -32,9 +32,13 @@ body {
 .intro ol {
   background: rgba(255, 255, 255, 0.9);
   padding: 2rem 4rem 1.5rem;
-  border-radius: 0.5rem;
   max-width: 35rem;
   margin: 1rem auto 0;
+}
+@media (min-width: 40rem) {
+  .intro ol {
+    border-radius: 0.5rem;
+  }
 }
 .intro ol li {
   margin-bottom: 1rem;
